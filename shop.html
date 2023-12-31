@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-white flex flex-col items-stretch">
+        <div class="w-full px-14 py-8 max-md:max-w-full max-md:px-5">
+          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div
+              class="flex flex-col items-stretch w-[32%] max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-between items-center flex grow gap-1.5 max-md:mt-10"
+              >
+                <img
+                  loading="lazy"
+                  srcset="logo.png"
+                  class="aspect-[1.56] object-contain object-center w-[50px] overflow-hidden shrink-0 max-w-full my-auto"
+                />
+                <div
+                  class="text-black text-4xl font-bold self-stretch grow whitespace-nowrap"
+                >
+                  Furniro
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-[45%] ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="flex items-start justify-between gap-5 my-auto max-md:max-w-full max-md:flex-wrap max-md:mt-10"
+              >
+                <div class="text-black text-base font-medium self-start"><a href="index.html">Home</a></div>
+                <div class="text-black text-base font-medium self-stretch"><a href="shop.html">Shop</a></div>
+                <div class="text-black text-base font-medium self-start">About</div>
+                <div class="text-black text-base font-medium self-start"><a href="contact.html">Contact</a></div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-[23%] ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="flex items-stretch justify-between gap-5 my-auto max-md:mt-10"
+              >
+                <img
+                  loading="lazy"
+                  src="dude.png"
+                  class="aspect-square object-contain object-center w-7 overflow-hidden shrink-0 max-w-full"
+                />
+                <img
+                  loading="lazy"
+                  src="search.png"
+                  class="aspect-square object-contain object-center w-7 overflow-hidden shrink-0 max-w-full"
+                />
+                <img
+                  loading="lazy"
+                  src="heart.png"
+                  class="aspect-square object-contain object-center w-7 overflow-hidden shrink-0 max-w-full"
+                />
+                <img
+                  loading="lazy"
+                  src="cart.png"
+                  class="aspect-square object-contain object-center w-7 overflow-hidden shrink-0 max-w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex-col blur-[3px] overflow-hidden relative z-[1] flex min-h-[328px] w-full justify-center items-center -mt-1.5 px-16 py-12 max-md:max-w-full max-md:px-5"
+        >
+          <img
+            loading="lazy"
+            srcset="blur.png"
+            class="absolute h-full w-full object-cover object-center inset-0"
+          />
+          <div
+            class="relative flex w-[121px] max-w-full flex-col items-stretch mt-24 mb-9 max-md:mt-10"
+          >
+            <div
+              class="text-black text-5xl font-medium whitespace-nowrap max-md:text-4xl"
+            >
+              Shop
+            </div>
+            <div class="flex items-center justify-between gap-1.5 mt-2.5">
+              <div
+                class="text-black text-base font-medium grow whitespace-nowrap my-auto"
+              >
+                Home
+              </div>
+              <img
+                loading="lazy"
+                src="arrow.png"
+                class="aspect-square object-contain object-center w-5 overflow-hidden self-stretch shrink-0 max-w-full"
+              />
+              <div
+                class="text-black text-base font-light grow whitespace-nowrap mt-1 self-start"
+              >
+                Shop
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-orange-50 flex w-full items-center justify-between gap-5 px-20 py-6 max-md:max-w-full max-md:flex-wrap max-md:px-5"
+        >
+          <div
+            class="flex items-start justify-between gap-3 my-auto max-md:max-w-full max-md:flex-wrap"
+          >
+            <img
+              loading="lazy"
+              src="system.png"
+              class="aspect-square object-contain object-center w-[25px] overflow-hidden self-center shrink-0 max-w-full my-auto"
+            />
+            <div class="text-black text-xl self-center my-auto">Filter</div>
+            <img
+              loading="lazy"
+              src="grid.png"
+              class="aspect-square object-contain object-center w-7 overflow-hidden self-center shrink-0 max-w-full my-auto"
+            />
+            <img
+              loading="lazy"
+              src="list.png"
+              class="aspect-square object-contain object-center w-6 overflow-hidden self-center shrink-0 max-w-full my-auto"
+            />
+            <div class="bg-neutral-400 self-stretch w-0.5 shrink-0 h-[37px]"></div>
+            <div
+              class="text-black text-base self-center grow whitespace-nowrap my-auto"
+            >
+              Showing 1–16 of 32 results
+            </div>
+          </div>
+          <div
+            class="self-stretch flex items-center justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
+          >
+            <div class="text-black text-xl whitespace-nowrap my-auto">Show</div>
+            <div
+              class="text-neutral-400 text-xl whitespace-nowrap bg-white self-stretch aspect-square justify-center items-center h-[55px] px-5"
+            >
+              16
+            </div>
+            <div class="text-black text-xl my-auto">Short by</div>
+            <div
+              class="text-neutral-400 text-xl whitespace-nowrap bg-white self-stretch grow justify-center pl-8 pr-16 py-5 items-start max-md:px-5"
+            >
+              Default
+            </div>
+          </div>
+        </div>
+        <div
+          class="self-center w-full max-w-[1236px] mt-16 px-5 max-md:max-w-full max-md:mt-10"
+        >
+          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img1.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -30%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-5 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Syltherine
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-3.5">
+                    Stylish cafe chair
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 2.500.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 3.500.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="bg-neutral-700 flex w-full grow flex-col items-center mx-auto px-4 py-12 max-md:mt-8"
+              >
+                <div
+                  class="text-yellow-600 text-base font-semibold leading-6 whitespace-nowrap bg-white justify-center items-stretch mt-32 px-14 py-5 max-md:mt-10 max-md:px-5"
+                >
+                  Add to cart
+                </div>
+                <div
+                  class="items-stretch self-stretch flex gap-5 mt-6 mb-24 max-md:mb-10"
+                >
+                  <div class="justify-between items-center flex gap-0.5">
+                    <img
+                      loading="lazy"
+                      src="share.png"
+                      class="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                    />
+                    <div
+                      class="text-white text-base font-semibold leading-6 self-stretch grow whitespace-nowrap"
+                    >
+                      Share
+                    </div>
+                  </div>
+                  <div class="justify-between items-center flex gap-0.5">
+                    <img
+                      loading="lazy"
+                      src="compare.png"
+                      class="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                    />
+                    <div
+                      class="text-white text-base font-semibold leading-6 self-stretch grow whitespace-nowrap"
+                    >
+                      Compare
+                    </div>
+                  </div>
+                  <div class="justify-between items-center flex gap-0.5">
+                    <img
+                      loading="lazy"
+                      src="Heart.png"
+                      class="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                    />
+                    <div
+                      class="text-white text-base font-semibold leading-6 self-stretch grow whitespace-nowrap"
+                    >
+                      Like
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img2.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -50%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-4 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Lolito
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-5">
+                    Luxury big sofa
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 7.000.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 14.000.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img3.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-2 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    New
+                  </div>
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col items-stretch pl-4 pr-12 py-6 max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Respira
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-3.5"
+                  >
+                    Outdoor bar table and stool
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 mt-3.5"
+                  >
+                    Rp 500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-center w-full max-w-[1236px] mt-10 px-5 max-md:max-w-full">
+          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img1.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -30%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-5 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Syltherine
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-3.5">
+                    Stylish cafe chair
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 2.500.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 3.500.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full justify-center items-stretch px-px"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img18.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col pl-4 pr-20 py-6 items-start max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Leviosa
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-5"
+                  >
+                    Stylish cafe chair
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 whitespace-nowrap mt-2.5"
+                  >
+                    Rp 2.500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img2.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -50%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-4 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Lolito
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-5">
+                    Luxury big sofa
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 7.000.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 14.000.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img3.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-2 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    New
+                  </div>
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col items-stretch pl-4 pr-12 py-6 max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Respira
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-3.5"
+                  >
+                    Outdoor bar table and stool
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 mt-3.5"
+                  >
+                    Rp 500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-center w-full max-w-[1236px] mt-10 px-5 max-md:max-w-full">
+          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img1.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -30%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-5 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Syltherine
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-3.5">
+                    Stylish cafe chair
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 2.500.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 3.500.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full justify-center items-stretch px-px"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img18.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col pl-4 pr-20 py-6 items-start max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Leviosa
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-5"
+                  >
+                    Stylish cafe chair
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 whitespace-nowrap mt-2.5"
+                  >
+                    Rp 2.500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img2.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -50%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-4 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Lolito
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-5">
+                    Luxury big sofa
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 7.000.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 14.000.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img3.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-2 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    New
+                  </div>
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col items-stretch pl-4 pr-12 py-6 max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Respira
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-3.5"
+                  >
+                    Outdoor bar table and stool
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 mt-3.5"
+                  >
+                    Rp 500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-center w-full max-w-[1236px] mt-10 px-5 max-md:max-w-full">
+          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img1.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -30%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-5 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Syltherine
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-3.5">
+                    Stylish cafe chair
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 2.500.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 3.500.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full justify-center items-stretch px-px"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img18.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col pl-4 pr-20 py-6 items-start max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Leviosa
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-5"
+                  >
+                    Stylish cafe chair
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 whitespace-nowrap mt-2.5"
+                  >
+                    Rp 2.500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img2.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-1 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    -50%
+                  </div>
+                </div>
+                <div class="bg-gray-100 flex w-full flex-col items-stretch px-4 py-6">
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Lolito
+                  </div>
+                  <div class="text-zinc-500 text-base font-medium leading-6 mt-5">
+                    Luxury big sofa
+                  </div>
+                  <div class="items-stretch flex justify-between gap-4 mt-2.5">
+                    <div
+                      class="text-neutral-700 text-xl font-semibold leading-8 grow whitespace-nowrap"
+                    >
+                      Rp 7.000.000
+                    </div>
+                    <div
+                      class="text-zinc-400 text-base leading-6 self-center grow whitespace-nowrap my-auto"
+                    >
+                      Rp 14.000.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div class="flex grow flex-col items-stretch max-md:mt-8">
+                <div
+                  class="flex-col overflow-hidden relative flex aspect-[0.946843853820598] w-full pl-16 pr-6 pt-6 pb-12 items-end max-md:px-5"
+                >
+                  <img
+                    loading="lazy"
+                    srcset="img3.png"
+                    class="absolute h-full w-full object-cover object-center inset-0"
+                  />
+                  <div
+                    class="relative text-white text-base font-medium leading-6 whitespace-nowrap aspect-square justify-center items-stretch mb-32 px-2 py-5 rounded-[50%] max-md:mb-10"
+                  >
+                    New
+                  </div>
+                </div>
+                <div
+                  class="bg-gray-100 flex flex-col items-stretch pl-4 pr-12 py-6 max-md:pr-5"
+                >
+                  <div class="text-neutral-700 text-2xl font-semibold leading-7">
+                    Respira
+                  </div>
+                  <div
+                    class="text-zinc-500 text-base font-medium leading-6 whitespace-nowrap mt-3.5"
+                  >
+                    Outdoor bar table and stool
+                  </div>
+                  <div
+                    class="text-neutral-700 text-xl font-semibold leading-8 mt-3.5"
+                  >
+                    Rp 500.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="items-stretch self-center flex justify-between gap-5 mt-10 pt-8 px-5"
+        >
+          <div
+            class="text-white text-xl whitespace-nowrap bg-yellow-600 aspect-square justify-center items-center h-[60px] px-7 rounded-xl max-md:px-5"
+          >
+            1
+          </div>
+          <div
+            class="text-black text-xl whitespace-nowrap bg-orange-50 aspect-square justify-center items-center h-[60px] px-6 rounded-xl max-md:px-5"
+          >
+            2
+          </div>
+          <div
+            class="text-black text-xl whitespace-nowrap bg-orange-50 aspect-square justify-center items-center h-[60px] px-6 rounded-xl max-md:px-5"
+          >
+            3
+          </div>
+          <div
+            class="text-black text-xl font-light whitespace-nowrap bg-orange-50 grow justify-center items-stretch px-7 py-6 rounded-xl max-md:px-5"
+          >
+            Next
+          </div>
+        </div>
+        <div
+          class="justify-center items-stretch bg-orange-50 flex w-full flex-col mt-20 px-14 py-12 max-md:max-w-full max-md:mt-10 max-md:px-5"
+        >
+          <div
+            class="justify-between items-stretch flex w-full gap-5 my-12 px-0.5 max-md:max-w-full max-md:flex-wrap max-md:my-10"
+          >
+            <div class="items-center flex justify-between gap-2.5">
+              <img
+                loading="lazy"
+                src="trophy.png"
+                class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full my-auto"
+              />
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col">
+                <div class="text-neutral-800 text-2xl font-semibold leading-9">
+                  High Quality
+                </div>
+                <div
+                  class="text-zinc-500 text-xl font-medium leading-8 whitespace-nowrap"
+                >
+                  crafted from top materials
+                </div>
+              </div>
+            </div>
+            <div class="justify-between items-center flex gap-2.5">
+              <img
+                loading="lazy"
+                src="guarantee.png"
+                class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full my-auto"
+              />
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col">
+                <div
+                  class="text-neutral-800 text-2xl font-semibold leading-9 whitespace-nowrap"
+                >
+                  Warranty Protection
+                </div>
+                <div class="text-zinc-500 text-xl font-medium leading-8">
+                  Over 2 years
+                </div>
+              </div>
+            </div>
+            <div class="justify-between items-center flex gap-2.5">
+              <img
+                loading="lazy"
+                src="shipping.png"
+                class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full my-auto"
+              />
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col">
+                <div
+                  class="text-neutral-800 text-2xl font-semibold leading-9 whitespace-nowrap"
+                >
+                  Free Shipping
+                </div>
+                <div
+                  class="text-zinc-500 text-xl font-medium leading-8 whitespace-nowrap"
+                >
+                  Order over 150 $
+                </div>
+              </div>
+            </div>
+            <div class="items-center flex justify-between gap-2.5">
+              <img
+                loading="lazy"
+                src="support.png"
+                class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full my-auto"
+              />
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col">
+                <div
+                  class="text-neutral-800 text-2xl font-semibold leading-9 whitespace-nowrap"
+                >
+                  24 / 7 Support
+                </div>
+                <div
+                  class="text-zinc-500 text-xl font-medium leading-8 whitespace-nowrap"
+                >
+                  Dedicated support
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white flex w-full flex-col items-stretch px-20 py-11 border-t-black border-t-opacity-20 border-t border-solid max-md:max-w-full max-md:px-5"
+        >
+          <div class="ml-4 mr-5 mt-1 max-md:max-w-full max-md:mr-2.5">
+            <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+              <div
+                class="flex flex-col items-stretch w-[35%] max-md:w-full max-md:ml-0"
+              >
+                <div class="flex flex-col items-stretch max-md:mt-10">
+                  <div class="text-black text-2xl font-bold">Funiro.</div>
+                  <div class="text-neutral-400 text-base mt-16 max-md:mt-10">
+                    400 University Drive Suite 200 Coral Gables,
+                    <br />
+                    FL 33134 USA
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col items-stretch w-[36%] ml-5 max-md:w-full max-md:ml-0"
+              >
+                <div
+                  class="flex grow items-stretch justify-between gap-5 pr-11 max-md:mt-10 max-md:pr-5"
+                >
+                  <div class="flex flex-col items-stretch">
+                    <div
+                      class="text-neutral-400 text-base font-medium whitespace-nowrap"
+                    >
+                      Links
+                    </div>
+                    <div
+                      class="text-black text-base font-medium whitespace-nowrap mt-16 max-md:mt-10"
+                    >
+                      Home
+                    </div>
+                    <div
+                      class="text-black text-base font-medium whitespace-nowrap mt-14 max-md:mt-10"
+                    >
+                      Shop
+                    </div>
+                    <div
+                      class="text-black text-base font-medium whitespace-nowrap mt-14 max-md:mt-10"
+                    >
+                      About
+                    </div>
+                    <div
+                      class="text-black text-base font-medium whitespace-nowrap mt-14 max-md:mt-10"
+                    >
+                      Contact
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-stretch self-start">
+                    <div class="text-neutral-400 text-base font-medium">Help</div>
+                    <div
+                      class="text-black text-base font-medium whitespace-nowrap mt-16 max-md:mt-10"
+                    >
+                      Payment Options
+                    </div>
+                    <div class="text-black text-base font-medium mt-14 max-md:mt-10">
+                      Returns
+                    </div>
+                    <div
+                      class="text-black text-base font-medium whitespace-nowrap mt-14 max-md:mt-10"
+                    >
+                      Privacy Policies
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col items-stretch w-[29%] ml-5 max-md:w-full max-md:ml-0"
+              >
+                <div class="flex flex-col items-stretch max-md:mt-10">
+                  <div class="text-neutral-400 text-base font-medium">Newsletter</div>
+                  <div
+                    class="flex items-stretch justify-between gap-3 mt-16 max-md:mt-10"
+                  >
+                    <div class="flex grow basis-[0%] flex-col items-stretch">
+                      <div class="text-neutral-400 text-sm">
+                        Enter Your Email Address
+                      </div>
+                      <div class="bg-black shrink-0 h-px mt-2"></div>
+                    </div>
+                    <div class="flex basis-[0%] flex-col items-stretch self-start">
+                      <div class="text-black text-sm font-medium whitespace-nowrap">
+                        SUBSCRIBE
+                      </div>
+                      <div class="bg-black shrink-0 h-px mt-2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-zinc-300 w-[1243px] shrink-0 max-w-full h-px ml-4 mr-5 mt-14 max-md:mr-2.5 max-md:mt-10"
+          ></div>
+          <div
+            class="text-black text-base ml-4 mr-5 mt-10 max-md:max-w-full max-md:mr-2.5 max-md:mt-10"
+          >
+            2023 furino. All rights reverved
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
